@@ -14,5 +14,15 @@ body {
   background-color: grey;
   border: 1px solid black;
 }
+.grid-container{
+  display: grid ;
+grid-area: footer-start / 1 / footer-end / 4;
+}
 
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
+   height: 50%;
+  width: 50%;
+  justify-self: center;
+}
 /* add the .bigItem class */
